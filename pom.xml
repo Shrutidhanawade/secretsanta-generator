@@ -51,15 +51,17 @@
 	</dependencies>
 
 	<distributionManagement>
-        <repository>
-            <id>maven-releases</id>
-            <url>http://43.204.217.64:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>maven-snapshots</id>
-            <url>http://43.204.217.64:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>f3aecad38f58-releases</name>
+        <url>http://192.168.75.136:8081/artifactory/mvn</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>f3aecad38f58-snapshots</name>
+        <url>http://192.168.75.136:8081/artifactory/mvn</url>
+    </snapshotRepository>
+</distributionManagement>
 
 	<build>
 		<plugins>
